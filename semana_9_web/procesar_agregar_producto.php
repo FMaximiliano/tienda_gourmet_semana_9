@@ -6,7 +6,6 @@ $id_producto = $_POST['id_producto'];
 $cantidad = $_POST['cantidad'];
 $id_usuario = $_SESSION['id_usuario'];
 
-// Paso 1: Verificar si el producto existe en 'productos_gourmet'
 $sql_verificar_producto_gourmet = "SELECT * FROM productos_gourmet WHERE id_producto = ?";
 $stmt_gourmet = $conexion->prepare($sql_verificar_producto_gourmet);
 
