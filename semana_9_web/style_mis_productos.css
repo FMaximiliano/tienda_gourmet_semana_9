@@ -23,14 +23,12 @@ header a {
     text-decoration: none;
 }
 
-/* Contenedor principal */
 .container {
     width: 90%;
     max-width: 800px;
     margin: 40px auto;
 }
 
-/* Lista de productos */
 .product-list {
     list-style-type: none;
     padding: 0;

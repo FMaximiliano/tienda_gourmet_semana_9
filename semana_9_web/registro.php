@@ -2,7 +2,7 @@
 include 'conexion.php'; // establece la conexión a la BD
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Captura los datos enviados
+    // Capturar los datos enviados
     $nombre = $_POST['nombre'] ?? null;
     $email = $_POST['email'] ?? null;
     $password = $_POST['password'] ?? null;
