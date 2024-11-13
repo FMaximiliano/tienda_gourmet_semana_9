@@ -20,7 +20,7 @@ if (isset($_GET['id_producto'])) {
         echo "<p><strong>Cantidad Disponible:</strong> " . htmlspecialchars($producto['cantidad_disponible']) . "</p>";
         echo "<p><strong>Precio:</strong> $" . htmlspecialchars($producto['precio']) . "</p>";
         
-        // Verificar si hay una URL de imagen y mostrarla
+        
         if (!empty($producto['imagen_url'])) {
             echo "<img src='" . htmlspecialchars($producto['imagen_url']) . "' alt='" . htmlspecialchars($producto['nombre']) . "' style='width:100%; height:auto;'>";
         }
